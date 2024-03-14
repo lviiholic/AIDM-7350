@@ -1,0 +1,20 @@
+.standout {
+    font-size: 20px;
+    color: rgb(0, 136, 255);
+    }
+
+p {
+        font-size: 20px;
+        color: rgb(255, 162, 74);
+        }
+p:hover {background:rgb(201, 254, 253);}
+
+.image1{border-radius:50%;}
+
+.image2{border-radius:30px;}
+
+.image3{opacity: 0.8;}
+
+.image4{filter: grayscale(70%);}
+
+.image5:hover{filter: blur(5px);}
