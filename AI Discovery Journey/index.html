@@ -494,6 +494,24 @@
 <script src="js/lightbox.min.js"></script>
 <script src="js/site.js"></script>
 
+    <script>
+        $(document).ready(function() {
+            // Add your responsive code here
+            // Example: Adjust content layout for smaller screens
+            $(window).resize(function() {
+                var windowWidth = $(window).width();
+                if (windowWidth < 768) {
+                    // Adjustments for small screens
+                    $('.col-3').addClass('col-1');
+                    $('.col-2-3').addClass('col-1');
+                } else {
+                    // Adjustments for larger screens
+                    $('.col-3').removeClass('col-1');
+                    $('.col-2-3').removeClass('col-1');
+                }
+            }).resize(); // Trigger resize event on page load
+        });
+    </script>
 
 </body>
 </html>
